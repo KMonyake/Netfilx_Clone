@@ -1,0 +1,25 @@
+nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    position: relative;
+    transition: all 0.3s ease-in;
+    z-index: 5;
+    background-color: black;
+}
+
+.nav-black {
+    background-color: black;
+    position: fixed;
+}
+
+.logo {
+    width: 100px;
+}
+
+.user-icon {
+    height: 40px;
+}
